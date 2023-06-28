@@ -9,11 +9,15 @@
 ## Theme
 In a post-COVID era, the aviation industry experienced a shortage of airline workers, and struggled to meet the high demand. Travelers in 2022 were most likely to experience flight delays and cancellations.  
 
-Using data from U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS), we gathered data for date to date to track the on-time performance of domestic flights operated by several different large air carriers.  
+Using data from U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS), we gathered a year’s worth of data from 03/2022 to 03/2023 to track the on-time performance of domestic flights operated by several different large air carriers.   
 
 ## Key Things to Note
 What is considered “delayed”?
 A flight is considered delayed when it arrived 15 or more minutes later than the schedule
+
+How many airline carriers are we comparing in our Dashboard?
+17 major airline carriers
+(Endeavor Air Inc., American Airlines Inc., Alaska Airlines Inc., JetBlue Airways, Delta Air Lines Inc., Frontier Airlines Inc., Allegiant Air, Hawaiian Airlines Inc., Envoy Air, Spirit Airlines, PSA Airlines Inc., SkyWest Airlines Inc., United Air Lines Inc., Southwest Airlines Co., Republic Airline, Horizon Air, Mesa Airlines Inc.)
 
 ## Coding Approach
 
@@ -183,6 +187,7 @@ if __name__ == '__main__':
 ```
 
 ### 4) Create Dashboard
+![image](https://github.com/cassiecontreras/project3_traveldelays/assets/126130038/b57f5268-3628-4bc7-b26f-03c16e368d01)
 
 
 ## Data

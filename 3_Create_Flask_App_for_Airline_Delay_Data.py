@@ -12,7 +12,7 @@ from flask import Flask, jsonify, render_template
 # Database Setup
 #################################################
 
-connection_string = 'postgresql+psycopg2://postgres:IDEA@localhost:5432/Travel'
+connection_string = 'postgresql+psycopg2://postgres:******************@localhost:5432/Travel'
 engine = create_engine(connection_string)
 # print(engine.table_names())
 connect=engine.connect()

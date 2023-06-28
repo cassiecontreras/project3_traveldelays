@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flight Delay</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body >
+
+
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 jumbotron text-center" style="background: url(./static/Images/flight.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;" >
+
+         <h1 style="color: black;">Airline On-Time Statistics and Delay Causes</h1>
+         <h4 style="color: black;">Use the interactive charts below to explore the dataset</h4>
+         <h3 style="color: greenyellow;">CHECK OUT!</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="well">
+          <h5>Airline Name:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-14">
+        <div id="bar"></div>
+
+      <div class="col-md-10">
+        <div id="pie"></div>
+      </div>
+    </div> 
+        <div class="col-md-5">
+          <div id="bar1"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" style="text-align: center;">
+  </footer>
+
+  <canvas id="chart"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-fetch@3"></script>
+  <script src="http://underscorejs.org/underscore-min.js"></script>
+
+
+  <script src="static/JS/flight.js"></script>
+  <!-- <script src="static/JS/charts.js"></script> -->
+</body>
+
+</html> 
+

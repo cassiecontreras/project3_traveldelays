@@ -4,9 +4,10 @@
 
 # Project 3: Airline Delays in US
 
-### Team Members: Chun Zhao, Rihanna Afkami, Jing Xu, Jerrett Williams, Cassie Contreras
+## Contributors 
+Chun Zhao, Rihanna Afkami, Jing Xu, Jerrett Williams, Cassie Contreras
 
-## Theme
+## Background
 In a post-COVID era, the aviation industry experienced a shortage of airline workers, and struggled to meet the high demand. Travelers in 2022 were most likely to experience flight delays and cancellations.  
 
 Using data from U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS), we gathered a year’s worth of data from 03/2022 to 03/2023 to track the on-time performance of domestic flights operated by several different large air carriers.   
@@ -19,9 +20,11 @@ How many airline carriers are we comparing in our Dashboard?
 17 major airline carriers
 (Endeavor Air Inc., American Airlines Inc., Alaska Airlines Inc., JetBlue Airways, Delta Air Lines Inc., Frontier Airlines Inc., Allegiant Air, Hawaiian Airlines Inc., Envoy Air, Spirit Airlines, PSA Airlines Inc., SkyWest Airlines Inc., United Air Lines Inc., Southwest Airlines Co., Republic Airline, Horizon Air, Mesa Airlines Inc.)
 
+Reporting Dates: 03/2022 - 03/2023
+
 ## Coding Approach
 
-### 1) Cleaned Data and created dataframe using Jupyter Notebook
+### 1) Clean downloaded Kaggle data and create dataframe using Jupyter Notebook
 ```
 
 import numpy as np
@@ -96,7 +99,7 @@ pd.read_sql_query('select * from airlinedelays', con=engine).head()
 
 ```
 
-### 2) Imported Data into Database using SQL in PGADMIN
+### 2) Import Data into Database using SQL in PGADMIN
 
 ```
 DROP TABLE IF EXISTS AirlineDelays CASCADE;
@@ -191,9 +194,11 @@ if __name__ == '__main__':
 
 
 ## Data
-
 Source: https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
 
 Collection Methodology: Download data from website
+
+## Helpful Links
+https://docs.google.com/presentation/d/1L1K8PFo1JNqibXPOC91UDdhwLPghLYAs_3HlyF4oxX0/edit#slide=id.g255c80a5b5d_0_41 
 
 
